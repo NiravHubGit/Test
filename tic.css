@@ -1,0 +1,37 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+}
+
+.cell:hover {
+  background-color: #ddd;
+}
+
+.status {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.reset {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
